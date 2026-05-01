@@ -40,28 +40,29 @@ const LandingPage: React.FC = () => {
                             transition={{ duration: 1 }}
                         >
                             <h1 style={{
-                                fontSize: 'clamp(4rem, 10vw, 8rem)',
+                                fontSize: 'clamp(3rem, 7.5vw, 5.5rem)',
                                 fontWeight: 800,
-                                lineHeight: 0.9,
-                                letterSpacing: '-0.06em',
+                                lineHeight: 1.1,
+                                letterSpacing: '-0.04em',
                                 marginBottom: '24px',
                                 color: '#fff',
-                                textShadow: '0 0 30px rgba(0, 113, 227, 0.2)'
+                                textShadow: '0 0 30px rgba(0, 113, 227, 0.2)',
+                                maxWidth: '1100px',
+                                margin: '0 auto 24px auto'
                             }}>
-                                Industrial AI.<br />
-                                <span style={{ color: 'var(--yantrai-blue)' }}>Visionary Depth.</span>
+                                Building AI Agents<br />
+                                <span style={{ color: 'var(--yantrai-blue)' }}>with organisational memory.</span>
                             </h1>
                             <p style={{
                                 fontSize: 'clamp(1.2rem, 2.5vw, 1.5rem)',
                                 color: 'var(--text-secondary)',
                                 lineHeight: 1.4,
                                 marginBottom: '48px',
-                                maxWidth: '600px',
+                                maxWidth: '700px',
                                 margin: '0 auto 48px auto',
                                 fontWeight: 400
                             }}>
-                                We transform raw pixels into operational intelligence. <br />
-                                Discover the Vision-App-BI stack.
+                                Our AI agents are purpose built to solve industrial problems, empowered with long term organisational memory.
                             </p>
                             <div style={{ display: 'flex', gap: '24px', justifyContent: 'center' }}>
                                 <button
